@@ -4,7 +4,9 @@ async function getWeatherData() {
     const weatherPromise = await fetch(URL)
     const weatherData = await weatherPromise.json()
 
-    console.log(weatherData.main.temp)
+    const currentWeather = weatherData.main.temp
+
+    document.querySelector("dynamic-temp").textContent(weatherData)
 }
 
 getWeatherData()
