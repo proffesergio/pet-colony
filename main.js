@@ -6,7 +6,9 @@ async function getWeatherData() {
 
     const currentWeather = weatherData.main.temp
 
-    document.querySelector("dynamic-temp").textContent(weatherData)
+    console.log(currentWeather)
+
+    document.querySelector("dynamic-temp").textContent(currentWeather)
 }
 
 getWeatherData()
