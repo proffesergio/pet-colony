@@ -160,6 +160,17 @@ body {
     color: #959595;
 }
 
+.pet-filter button:hover {
+    color: #686767;
+
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+    color: #1d44f5;
+    text-decoration: underline;
+}
+
 .pet-list-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));

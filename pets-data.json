@@ -8,14 +8,14 @@
         "dry food",
         "<strong>any</strong> food"
       ],
-      "birthYear": 2016,
+      "birthYear": 2023,
       "description": "Purrsloud is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
       "photo": "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
     },
     {
       "name": "Barksalot",
       "species": "Dog",
-      "birthYear": 2008,
+      "birthYear": 2022,
       "description": "Barksalot is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
       "photo": "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
     },
@@ -27,9 +27,72 @@
         "catnip",
         "celery"
       ],
-      "birthYear": 2012,
-      "description": "Meowsalot is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "birthYear": 2024,
+      "description": "Meowsalot is a sweet and lovable kid. He loves carrots, celery, and playing fetch.",
       "photo": "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
+    },
+    {
+      "name": "Fury",
+      "species": "Dog",
+      "birthYear": 2020,
+      "description": "Fury is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218450.jpg"
+    },
+    {
+      "name": "Mandy",
+      "species": "Dog",
+      "birthYear": 2021,
+      "description": "Mandy is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/lovely-pet-portrait-isolated_23-2149192357.jpg"
+    },
+    {
+      "name": "Abigail",
+      "species": "Dog",
+      "birthYear": 2023,
+      "description": "Abigail is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/adorable-brown-white-basenji-dog-smiling-giving-high-five-isolated-white_346278-1657.jpg"
+    },
+    {
+      "name": "Mary Jane",
+      "species": "Dog",
+      "birthYear": 2024,
+      "description": "Mary Jane is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/portrait-happy-young-adult-good-mood-sitting-table-home-crossed-legs-happy-housewife-fondling-french-bulldog-with-pleasure-copy-space-family-concept_176420-10902.jpg"
+    },
+    {
+      "name": "Ming",
+      "species": "Dog",
+      "birthYear": 2023,
+      "description": "Ming is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/spaniel-puppy-playing-studio-cute-doggy-pet-is-sitting-isolated-blue-background-cavalier-king-charles-negative-space-insert-your-text-image-concept-movement-animal-rights_155003-33841.jpg"
+    },
+    {
+      "name": "Ryder",
+      "species": "Dog",
+      "birthYear": 2023,
+      "description": "Ryder is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/elegant-stylish-girl-spring-park_1157-23127.jpg"
+    },
+    {
+      "name": "Ruby",
+      "species": "Dog",
+      "birthYear": 2023,
+      "description": "Ruby is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/ai-generated-labrador-retriever-dog-picture_23-2150644976.jpg"
+    },
+    {
+      "name": "Smokey",
+      "species": "Dog",
+      "birthYear": 2023,
+      "description": "Smokey is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/ai-generated-labrador-retriever-dog-picture_23-2150644878.jpg"
+    },
+    {
+      "name": "Speedy",
+      "species": "Dog",
+      "birthYear": 2023,
+      "description": "Speedy is a sweet and lovable 3 year old ball of fluff. He loves carrots, celery, and playing fetch.",
+      "photo": "https://img.freepik.com/free-photo/beautiful-pet-portrait-small-dog-cat_23-2149218513.jpg"
     }
   ]
 }
