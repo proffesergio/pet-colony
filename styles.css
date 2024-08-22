@@ -121,7 +121,8 @@ body {
 
 @media screen and (min-width: 900px) {
     .intro-features {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }
 
@@ -152,7 +153,9 @@ body {
 .pet-section {
     background-color: white;
     padding: 70px 16px;
-    margin: 0 20px 0 20px;
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .pets-wrapper {
