@@ -17,32 +17,35 @@ body {
     margin-right: 10px;
 }
 
-.top-wrapper {
+.top-section-wrapper {
     overflow: hidden;
     background-color: #001D37;
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
 }
 
-.top-content-layer {
+.top-section {
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1066px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.actual-top-content {
     z-index: 2;
     position: relative;
 }
 
-.top-wrapper h1 {
+.top-section h1 {
+    font-size: 4rem;
     margin: 0;
-    max-width: 525px;
-    font-size: 3rem;
     line-height: 97.3%;
-    position: relative;
+    max-width: 525px;
 }
 
-@media screen and (min-width: 600px) {
-    .top-wrapper h1 {
-        font-size: 6.25rem;
-    }
-}
 
 .intro-text {
     font-size: 1.25rem;
@@ -51,78 +54,94 @@ body {
     max-width: 435px;
 }
 
-.home-top {
-    max-width: 1066px;
-    margin: 0 auto;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
+
+.intro-buttons {
+    margin-bottom: 70px;
 }
 
-.btn-filled {
+.our-btn {
     display: inline-block;
-    text-decoration: none;
-    background-color: #475AFF;
-    border: 3px solid #475AFF;
-    padding: 13px 25px;
-    border-radius: 200px;
-    color: white;
     font-size: 1.125rem;
-    transition: background-color .3s ease-in-out, border .3s ease-in-out;
+    font-weight: 600;
+    background-color: #475AFF;
+    border: 2px solid #475AFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 1000px;
+    transition: background-color .3s ease-out, border .3s ease-out, color .3s ease-out;
 }
 
-.btn-filled:hover {
-    background-color: #001D37;
-    border-color: #001D37;
+.our-btn:hover {
+    background-color: #2E40E2;
+    border: 2px solid #2E40E2;
 }
 
-.btn-outlined {
-    border: 2px solid white;
+.our-btn--outline {
     background-color: transparent;
-    transition: background-color .3s ease-out, border .3s ease-out;
+    border: 2px solid white;
 }
 
-.btn-outlined:hover {
+.our-btn--outline:hover {
     background-color: white;
-    border: 2px solid white;
     color: #475AFF;
+    border: 2px solid white;
+}
+
+.utility-mr {
+    margin-right: 10px;
+}
+
+.intro-feature {
+    padding: 33px 25px;
+    border: 1px solid rgba(255, 255, 255, .24);
+}
+
+.intro-feature p {
+    margin: 0;
+    font-size: 1.0625rem;
+}
+
+.intro-feature h2 {
+    font-size: 1.5rem;
+    margin: 31px 0 3px 0;
 }
 
 .intro-features {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 16px;
     row-gap: 16px;
 }
 
-.intro-feature-box {
-    color: white;
-    padding: 33px 25px;
-    border: 1px solid rgba(255, 255, 255, 0.24);
+@media screen and (min-width: 580px) {
+    .intro-features {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.intro-feature-box h3 {
-    font-size: 1.6rem;
-    margin: 35px 0px 5px 0px;
+@media screen and (min-width: 900px) {
+    .intro-features {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
-.bg-circle {
+.circle {
     width: 617px;
     height: 617px;
-    background: #f805ec8a;
+    background: #D660FF;
+    opacity: .85;
     border-radius: 50%;
     filter: blur(150px);
     position: absolute;
     top: 62px;
-    right: 0px;
-    overflow: hidden;
+    right: -390px;
 }
 
-.bg-circle-blue {
+.circle-two {
     width: 617px;
     height: 617px;
-    background: #1d44f5;
+    background: #6079FF;
+    opacity: .85;
     border-radius: 50%;
     filter: blur(150px);
     position: absolute;
@@ -132,7 +151,8 @@ body {
 
 .pet-section {
     background-color: white;
-    padding: 50px 16px;
+    padding: 70px 16px;
+    margin: 0 20px 0 20px;
 }
 
 .pets-wrapper {
@@ -230,38 +250,72 @@ body {
     line-height: 150%;
 }
 
-.pet-age {
-    color: #a2a2a2;
-    margin: 0;
-}
-
-
-
-.site-footer {
-    color: #a6a6a6;
-    font-size: 0.875rem;
-    text-align: center;
-}
-
-@media screen and (min-width: 580px) {
-    .home-top {
-        padding-top: 139px;
-        padding-bottom: 139px;
+@media screen and (min-width: 600px) {
+    .pet-card-description {
+        font-size: 1rem;
     }
 
-    .intro-features {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    .pet-age {
+        color: #a2a2a2;
+        margin: 0;
     }
 
-    .section-title {
-        font-size: 5.31rem;
+
+
+    .site-footer {
+        color: #a6a6a6;
+        font-size: 0.875rem;
+        text-align: center;
     }
 
-    .pet-filter>button {
-        font-size: 1.375rem;
-    }
+    @media screen and (min-width: 600px) {
+        .pet-card-description {
+            font-size: 1rem;
+        }
 
-    .pet-section {
-        padding: 130px 16px;
+        .pet-card-text {
+            padding: 21px 29px;
+        }
+
+        .pet-list-section {
+            row-gap: 28px;
+        }
+
+        .pet-filter {
+            font-size: 1.375rem;
+        }
+
+        .home-top {
+            padding-top: 139px;
+            padding-bottom: 139px;
+        }
+
+        .intro-features {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .section-title {
+            font-size: 5.31rem;
+        }
+
+        .pet-filter>button {
+            font-size: 1.375rem;
+        }
+
+        .pet-section {
+            padding: 130px 16px;
+        }
+
+        .intro-buttons {
+            margin-bottom: 129px;
+        }
+
+        .top-section h1 {
+            font-size: 6.25rem;
+        }
+
+        .top-section {
+            padding-top: 139px;
+            padding-bottom: 139px;
+        }
     }
-}
